@@ -1,0 +1,1 @@
+Added project setup files for NodeEclipse

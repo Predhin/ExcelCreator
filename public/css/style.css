@@ -1,0 +1,106 @@
+/*Courtesy: Sticky Footer : https://gist.github.com/martinbean/1855032*/
+	html, body {
+            height: 100%;
+        }
+        footer {
+            color: #666;
+            background: #222;
+            padding: 17px 0 18px 0;
+            border-top: 1px solid #000;
+        }
+        footer a {
+            color: #999;
+        }
+        footer a:hover {
+            color: #efefef;
+        }
+        .wrapper {
+            min-height: 100%;
+            height: auto !important;
+            height: 100%;
+            margin: 0 auto -63px;
+        }
+        .push {
+            height: 63px;
+        }
+        /* not required for sticky footer; just pushes hero down a bit */
+        .wrapper > .container {
+            padding-top: 60px;
+        }
+/*End*/
+.home
+{
+	background-image: url("../img/home.png");
+	background-repeat: no-repeat;
+	width:32px;
+	height:32px;
+	margin: 0 auto 1%;
+	cursor: pointer;
+}
+.main
+{
+	/*background-color: rgba(68, 184, 0, 0.9);*/
+	background-color: #fffff;
+}
+
+.paddtop2
+{
+	padding-top:2%;
+}
+
+
+
+.content
+{
+	background: none repeat scroll 0 0 #EF6957;
+    height: 8em;
+    padding-top: 1%;
+    width: 100%;
+	
+}
+
+.centerwrite
+{
+	text-align: center;
+	font: 2em "Source Sans Pro", Arial, sans-serif;
+	color: #333;
+}
+.appcontent
+{
+	font: 1em "Source Sans Pro", Arial, sans-serif;
+	color: #777;
+	padding: 2%;
+	height: 80%;
+	padding: 10%;
+	margin: 2%;
+	text-align: center;
+}
+
+
+.whitish
+{
+	background: white;
+}
+.greyish
+{
+	background: grey;
+	height: 0.5em;
+}
+.grey
+{
+	color: grey;
+}
+.sitemaplabel
+{
+	color: black;
+	font-size: 1em;
+	padding: 2%;
+}
+.sitemapDiv
+{
+	padding-top: 2%;
+}
+.textCenter
+{
+	 text-align: center;
+}

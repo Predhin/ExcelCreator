@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+	<link rel='stylesheet' href='/css/bootstrap.css' />
+	<!--for responsive feature-->
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<link rel='stylesheet' href='/css/bootstrap-responsive.css'>
+	<!--<link rel='stylesheet' href='/css/jquery-ui.css' />-->
+    <link rel='stylesheet' href='/css/style.css' />
+	<link rel='stylesheet' href='/css/animate.css' />
+	<!-- Load Jquery -->
+	<script src="/js/jquery-1.10.2.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<!--<script src="/js/jquery-ui.js"></script>-->
+	<script src="/js/app/popup.js"></script>
+	<script src="/js/app/table.js"></script>
+	<script src="/js/app/submit.js"></script>
+	<script src="/js/app/init.js"></script>
+	
+	
+  </head>
+  <body>
+  
+	<div class="wrapper">
+	<div class="content">
+		<div class="home">
+		</div>
+		<h3 class="textCenter">EC Project</h3>
+	</div>
+		<div class="main">
+      <div class="container paddtop2 well well-large">
+        <header class="hero-unit">
+         	
+			<form id="tableForm" method="POST">
+			 <fieldset>
+			<legend>Create your Task Sheet</legend>
+			<table class="table table-hover tabler">
+				<thead>
+					<tr class="form-group">
+						<th class="textCenter" scope="col">Task</th>
+						<th class="textCenter" scope="col">Sub Task</th>
+						<th class="textCenter" scope="col">Date</th>
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr class="form-group">
+						<td><input name="Task" type="text"  class="form-control" placeholder="Enter Task name" id="task1"></td>
+						<td><input name="Sub Task" type="text" id="subtask1" class="form-control" placeholder="Enter Sub Task name"></td>
+						<td><input name="Date" id="date1" type="date" class="form-control" placeholder="Enter Date"></td>
+					</tr>
+				</tbody>
+			</table>
+			</fieldset>
+		    </form>
+			<div class="row">
+				<div class="col-6 col-lg-6 textCenter">
+					<button class="btn btn-default addbutton">Add Row</button>
+				</div>
+				<div class="col-6 col-lg-6 textCenter">
+					<button id="submit_tableForm" class="btn btn-primary">Submit</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-lg-12 textCenter">
+					<a data-toggle="modal" href="#popupDialog" class="btn btn-primary btn-lg">Add Column</a>
+				</div>
+			</div>
+			
+        </header>
+		<div class="modal fade" id="popupDialog" tabindex="-1" role="dialog" aria-labelledby="popupDialogLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close closePopup" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="popupDialogLabel">Modal Heading</h4>
+			  </div>
+			  <div class="modal-body">
+			  <div id="adderError" style="display:none" class="alert alert-danger">
+			  Oh snap! Change a few things up and try submitting again.</div>
+				<label>Please enter a unique name for new column</label>
+				<input name="Column" type="text"  class="form-control" placeholder="Enter Task name" id="columnAdd">
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default closePopup" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary savePopup" data-dismiss="modal">Save changes</button>
+			  </div>
+			</div>
+		  </div>
+	  </div>
+      </div>
+	  </div>
+      <div class="push"><!--//--></div>
+    </div>
+    <footer>
+      <div class="container">
+        <p class="textCenter">EC &copy; 2013</p>
+		<p class="textCenter"><em>This is a Beta Version, use at your risk</em></p>
+      </div>
+    </footer>
+  </body>
+</html>
