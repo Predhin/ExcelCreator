@@ -5,9 +5,10 @@ EC aims in creating excel based on the User inputs.
 I hate working on microsoft excel, I wish simple UI which does this thing for me.
 
 ## Usage
-```Just submit a table, app takes care of rest, cool na... 
+``
+Just submit a table, app takes care of rest, cool na...
 *please make sure you have a name associated with the fields posted*
-```
+``
 
 ## Credits
 * [Stephen-hardy](https://github.com/stephen-hardy/ "Stephen-hardy") for creating a excelent xlsx library
@@ -19,7 +20,7 @@ I hate working on microsoft excel, I wish simple UI which does this thing for me
 *SMTP Integration*(Send excel as attachment)
 
 ## Licence
-```
+``
 The MIT License (MIT)
 
 Copyright (c) 2013 Predhin Tom Sapru
@@ -38,7 +39,7 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-```
+``
 
 ### I want to contribute!
 
